@@ -1,0 +1,9 @@
+@import "mixin";
+@import "compass/css3";
+
+.header h1 a {
+	@include bg(logo,jpg);
+	display: block;
+	@include text-hide;
+	@include opacity(0.2);
+}
